@@ -2,7 +2,7 @@
 
 // Ask user's name!
 var userName = prompt('What is your name?');
-alert('Welcome to my website ' + userName + '!');
+alert('Welcome to my website ' + userName + '! Let\'s play a guessing game! Answer yes or no to the following questions to see how well you know me! ');
 
 // First Question
 var pets = prompt('Do I have any pets?');
@@ -73,3 +73,6 @@ if(exercise.toLowerCase() === 'yes'){
 } else {
   prompt('Please take your best guess by responding yes or no!');
 }
+
+// End of Game Message
+alert('Good job ' + userName + ', you completed my game! I hope you feel like you know me a little better now!');
