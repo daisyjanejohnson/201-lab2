@@ -15,11 +15,19 @@ if(pets.toLowerCase() === 'yes'){
 } else if(pets.toLowerCase() === 'no'){
   alert('Actually I have 4 pets! Two cats, one dog and a bunny!');
 } else {
-  prompt('Please answer with a yes or no');
+  prompt('Please answer with a yes or no please and thank you');
 }
 
 // Second Question
 var videoGames = prompt('Do I like video games?');
 
 // if they respond yes, I want to say 'Correct! My favorite video game at the moment is Animal Crossing! Curse you Tom Nook!'
-// if they respond no, 
+// if they respond no, I want to say 'Wrong! I looooove video games silly!'
+
+if(videoGames.toLowerCase() === 'yes'){
+  alert('Correct! My favorite video game at the moment is Animal Crossing! Curse you Tom Nook!');
+} else if(videoGames.toLowerCase() === 'no'){
+  alert('Wrong! I looooove video games!');
+} else {
+  prompt('Please answer with a yes or no pretty please');
+}
