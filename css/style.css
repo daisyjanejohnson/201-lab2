@@ -1,0 +1,32 @@
+/* background color for page */
+body{
+  background-color: palevioletred;
+  padding-left: 20px;
+}
+
+h1{
+  margin: 20px;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  Text-align: center;
+  color: darkslategrey;
+  font-size: 50pt;
+  font-family: fantasy;
+  border: 5px solid darkslategray;
+
+}
+p{
+  text-align:center;
+  font-size: 25pt;
+  font-family: fantasy;
+  padding-bottom: 30pt;
+}
+
+ul{
+  padding-top: 30pt;
+  padding-bottom: 30pt;
+  text-align: center;
+  font-size: 15pt;
+  font-family:
+  border: 3px dotted yellow;
+}
