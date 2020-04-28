@@ -12,8 +12,10 @@ var pets = prompt('Do I have any pets?');
 
 if(pets.toLowerCase() === 'yes'){
   alert('Correct! I have two cats, one dog, and a bunny!');
+  // console.log('You are Correct!');
 } else if(pets.toLowerCase() === 'no'){
   alert('Actually I have 4 pets! Two cats, one dog and a bunny!');
+  // console.log('You are Incorrect!');
 } else {
   prompt('Please answer with a yes or no please and thank you.');
 }
@@ -26,8 +28,10 @@ var videoGames = prompt('Do I like video games?');
 
 if(videoGames.toLowerCase() === 'yes'){
   alert('Correct! My favorite video game at the moment is Animal Crossing! Curse you Tom Nook!');
+  // console.log('You are Correct!');
 } else if(videoGames.toLowerCase() === 'no'){
   alert('Wrong! I looooove video games!');
+  // console.log('You are Incorrect!');
 } else {
   prompt('Please answer with a yes or no pretty please.');
 }
@@ -40,8 +44,10 @@ var travel = prompt('Have I ever traveled outside of the United States?');
 
 if(travel.toLowerCase() === 'yes'){
   alert('Wrong! Unfortunately I\'ve never traveled out of the US but I hope to go to Costa Rica at the end of this year!');
+  // console.log('You are Incorrect!');
 } else if(travel.toLowerCase() === 'no'){
   alert('You\'re right, I haven\'t traveled out of the US, but traveling to places like Japan and Costa Rica are on my bucket list!');
+  // console.log('You are Correct!');
 } else {
   prompt('Please guess yes or no if you wouldn\'t mind.');
 }
@@ -54,8 +60,10 @@ var music = prompt('Am I a musician?');
 
 if(music.toUpperCase() === 'YES'){
   alert('Correct! I have had professional vocal training to sing opera! FIGARO!!!');
+  // console.log('You are Correct!');
 } else if(music.toUpperCase() === 'NO'){
   alert('Wrong! Singing is my life!');
+  // console.log('You are Incorrect!');
 } else {
   prompt('Please answer yes or no to see if you got it right!');
 }
@@ -68,8 +76,10 @@ var exercise = prompt('Do I like to exercise?');
 
 if(exercise.toLowerCase() === 'yes'){
   alert('Correct! I do yoga every morning, you should try it out if you haven\'t already!');
+  // console.log('You are Correct!');
 } else if(exercise.toLowerCase() === 'no'){
-  alert('Wrong! Well I mean mostly wrong, it does depend on the day, but most days I love to do yoga!');
+  alert('Wrong! Well, I mean mostly wrong, it does depend on the day, but most days I love to do yoga!');
+  // console.log('You are Incorrect!');
 } else {
   prompt('Please take your best guess by responding yes or no!');
 }
