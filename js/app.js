@@ -49,4 +49,13 @@ if(travel.toLowerCase() === 'yes'){
 // Fourth Question
 var music = prompt('Am I a musician?');
 
-// if they respond yes, I want to say
+// if they respond yes I want to say, 'Correct! I have had professional vocal training to sing opera! FIGARO!!!'
+// if they respond no I want to say, 'Wrong! Singing is my life!'
+
+if(music.toUpperCase() === 'YES'){
+  alert('Correct! I have had professional vocal training to sing opera! FIGARO!!!');
+} else if(music.toUpperCase() === 'NO'){
+  alert('Wrong! Singing is my life!');
+} else {
+  prompt('Please answer yes or no to see if you got it right!');
+}
