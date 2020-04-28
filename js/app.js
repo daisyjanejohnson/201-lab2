@@ -59,3 +59,17 @@ if(music.toUpperCase() === 'YES'){
 } else {
   prompt('Please answer yes or no to see if you got it right!');
 }
+
+// Fifth Question
+var exercise = prompt('Do I like to exercise?');
+
+// if they respond yes I want to say, 'Correct! I do yoga every morning, you should try it out if you haven/'t already!'
+// if they respong no I want to say, 'Wrong! Well I mean mostly wrong, it does depend on the day, but most days I love to do yoga!'
+
+if(exercise.toLowerCase() === 'yes'){
+  alert('Correct! I do yoga every morning, you should try it out if you haven\'t already!');
+} else if(exercise.toLowerCase() === 'no'){
+  alert('Wrong! Well I mean mostly wrong, it does depend on the day, but most days I love to do yoga!');
+} else {
+  prompt('Please take your best guess by responding yes or no!');
+}
