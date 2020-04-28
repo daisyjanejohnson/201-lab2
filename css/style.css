@@ -4,6 +4,7 @@ body{
   padding-left: 20px;
 }
 
+/* header */
 h1{
   margin: 20px;
   padding-top: 10pt;
@@ -15,6 +16,7 @@ h1{
   border: 5px solid darkslategray;
 
 }
+/* opening paragraph */
 p{
   text-align:center;
   font-size: 25pt;
@@ -22,11 +24,18 @@ p{
   padding-bottom: 30pt;
 }
 
+/* Facts about me formatting */
 ul{
   padding-top: 30pt;
   padding-bottom: 30pt;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 425px;
   text-align: center;
   font-size: 15pt;
-  font-family:
+  font-family: cursive;
   border: 3px dotted yellow;
+  border-radius: 100px;
+  border-width: 15px;
+  display: inline-block;
 }
