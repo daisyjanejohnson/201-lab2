@@ -6,6 +6,7 @@ body{
 
 /* header */
 h1{
+  background-color: lightseagreen;
   margin: 20px;
   padding-top: 10pt;
   padding-bottom: 10pt;
@@ -18,6 +19,7 @@ h1{
 }
 /* opening paragraph */
 p{
+  background-color: purple;
   text-align:center;
   font-size: 25pt;
   font-family: fantasy;
@@ -26,6 +28,8 @@ p{
 
 /* Facts about me formatting */
 ul{
+  background-color:lightseagreen;
+  color: purple;
   padding-top: 30pt;
   padding-bottom: 30pt;
   padding-left: 10px;
@@ -37,5 +41,13 @@ ul{
   border: 3px dotted yellow;
   border-radius: 100px;
   border-width: 15px;
+  display: inline-block;
+}
+
+footer{
+  background-color: plum;
+  color: black;
+  border: 2px solid plum;
+  border-width: 5px;
   display: inline-block;
 }
