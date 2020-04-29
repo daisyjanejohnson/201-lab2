@@ -27,27 +27,23 @@ p{
 }
 
 /* Facts about me formatting */
-ul{
-  background-color:lightseagreen;
-  color: purple;
-  padding-top: 30pt;
-  padding-bottom: 30pt;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 675px;
-  text-align: center;
-  font-size: 15pt;
-  font-family: cursive;
-  border: 3px dotted yellow;
-  border-radius: 100px;
-  border-width: 15px;
-  display: inline-block;
-}
+div{
+  margin-top: 10px;
+  border: 2px solid black;
+  background-color: royalblue;
+  color: black;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: left;
+  
 
+
+}
 footer{
   background-color: plum;
   color: black;
   border: 2px solid plum;
   border-width: 5px;
   display: inline-block;
+  margin-top: 20px;
 }
