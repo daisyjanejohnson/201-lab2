@@ -91,44 +91,56 @@ if(exercise.toLowerCase() === 'yes'){
 }
 
 // Sixth Question (Guess a Number)
+// I want the user to guess the number I am thinking of between 1 and 10 (6), and give them 4 tries.
 var guessNumber = 0;
 console.log('hello');
 while (guessNumber < 4){
   var myNumber = prompt('Guess the number I am thinking of between 1 and 10!');
   if(myNumber === '6' || myNumber === 'six'){
     alert('Correct! That is exactly the number I was thinking of!');
+    console.log('You are correct!');
     correct++;
     break;
   }else if(myNumber > 6){
     alert('You guessed too high! Please try again!');
+    console.log('You guessed too high of a number!');
   } else if(myNumber < 6){
     alert('you guessed too low! Please guess again!');
+    console.log('You guessed too low of a number!');
   }
+  // guessNumber++ adds an iteration to the original amount (0) keeping track of how many guesses the user has used up. They cannot do more than 4 guesses.
   guessNumber++;
 }
 
 // Question 7
-
-
+// I am asking the user to guess some of my favorite colors with six possible correct answers in an array
 var myColors = ['red', 'blue', 'orange', 'yellow', 'pink', 'purple'];
+// var isWrong is a Boolean that mean if isWrong is equal to true than the user is incorrect.
 var isWrong = true;
+// To give the user the oppurtunity to guess six times, to potentially guess all of my favorite colors correctly, it requires a for loop nested into a for loop.
 for (var j = 0; j < 6; j++) {
-  var color = prompt('What is my favorite color?');
+  var color = prompt('What are some of my favorite colors?');
   for (var i = 0; i < myColors.length; i++) {
     if (color === myColors[i]) {
+      alert('You are correct!');
       console.log('You are correct!');
       isWrong = false;
       correct++;
       break;
     }
   }
-  console.log('hello');
   if (isWrong === true) {
-    console.log('You are incorrect!');
+    alert('You are incorrect!');
+    console.log('You are incorrect');
   } else {
     break;
   }
 
 }
-alert(myColors + 'are all of my favorite colors!');
-alert('You got ' + correct + 'correct!');
+// This alert tells the user what the correct answers were for the previous question.
+alert(myColors + ' are some of my favorite colors!');
+console.log(myColors + 'are my favorite colors.');
+
+// I created an alert connected to the variable correct in order to let the user know the score they got on my quiz
+alert('You got ' + correct + ' out of 7 answers correct!');
+console.log('You got' + correct + 'out of 7');
