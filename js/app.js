@@ -108,7 +108,6 @@ while (guessNumber < 4){
     alert('you guessed too low! Please guess again!');
     console.log('You guessed too low of a number!');
   }
-  // guessNumber++ adds an iteration to the original amount (0) keeping track of how many guesses the user has used up. They cannot do more than 4 guesses.
   guessNumber++;
 }
 
