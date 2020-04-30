@@ -26,19 +26,18 @@ p{
   padding-bottom: 30pt;
 }
 
-/* Facts about me formatting */
-div{
+/* bio info */
+.info{
   margin-top: 10px;
   border: 2px solid black;
   background-color: royalblue;
   color: black;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  float: left;
-  
-
-
 }
+/* Top Ten Movies */
+
+
 footer{
   background-color: plum;
   color: black;

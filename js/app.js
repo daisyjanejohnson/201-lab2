@@ -5,6 +5,7 @@ var userName = prompt('What is your name?');
 alert('Welcome to my website ' + userName + '! Let\'s play a guessing game! Answer yes or no to the following questions to see how well you know me! ');
 
 // First Question
+var correct = 0;
 var pets = prompt('Do I have any pets?');
 
 // if they respond yes I want to say, 'Correct! I have two cats, one dog, and a bunny!'
@@ -13,6 +14,7 @@ var pets = prompt('Do I have any pets?');
 if(pets.toLowerCase() === 'yes'){
   alert('Correct! I have two cats, one dog, and a bunny!');
   // console.log('You are Correct!');
+  correct++;
 } else if(pets.toLowerCase() === 'no'){
   alert('Actually I have 4 pets! Two cats, one dog and a bunny!');
   // console.log('You are Incorrect!');
@@ -29,6 +31,7 @@ var videoGames = prompt('Do I like video games?');
 if(videoGames.toLowerCase() === 'yes'){
   alert('Correct! My favorite video game at the moment is Animal Crossing! Curse you Tom Nook!');
   // console.log('You are Correct!');
+  correct++;
 } else if(videoGames.toLowerCase() === 'no'){
   alert('Wrong! I looooove video games!');
   // console.log('You are Incorrect!');
@@ -48,6 +51,7 @@ if(travel.toLowerCase() === 'yes'){
 } else if(travel.toLowerCase() === 'no'){
   alert('You\'re right, I haven\'t traveled out of the US, but traveling to places like Japan and Costa Rica are on my bucket list!');
   // console.log('You are Correct!');
+  correct++;
 } else {
   prompt('Please guess yes or no if you wouldn\'t mind.');
 }
@@ -61,6 +65,7 @@ var music = prompt('Am I a musician?');
 if(music.toUpperCase() === 'YES'){
   alert('Correct! I have had professional vocal training to sing opera! FIGARO!!!');
   // console.log('You are Correct!');
+  correct++;
 } else if(music.toUpperCase() === 'NO'){
   alert('Wrong! Singing is my life!');
   // console.log('You are Incorrect!');
@@ -77,6 +82,7 @@ var exercise = prompt('Do I like to exercise?');
 if(exercise.toLowerCase() === 'yes'){
   alert('Correct! I do yoga every morning, you should try it out if you haven\'t already!');
   // console.log('You are Correct!');
+  correct++;
 } else if(exercise.toLowerCase() === 'no'){
   alert('Wrong! Well, I mean mostly wrong, it does depend on the day, but most days I love to do yoga!');
   // console.log('You are Incorrect!');
@@ -84,5 +90,45 @@ if(exercise.toLowerCase() === 'yes'){
   prompt('Please take your best guess by responding yes or no!');
 }
 
-// End of Game Message
-alert('Good job ' + userName + ', you completed my game! I hope you feel like you know me a little better now!');
+// Sixth Question (Guess a Number)
+var guessNumber = 0;
+console.log('hello');
+while (guessNumber < 4){
+  var myNumber = prompt('Guess the number I am thinking of between 1 and 10!');
+  if(myNumber === '6' || myNumber === 'six'){
+    alert('Correct! That is exactly the number I was thinking of!');
+    correct++;
+    break;
+  }else if(myNumber > 6){
+    alert('You guessed too high! Please try again!');
+  } else if(myNumber < 6){
+    alert('you guessed too low! Please guess again!');
+  }
+  guessNumber++;
+}
+
+// Question 7
+
+
+var myColors = ['red', 'blue', 'orange', 'yellow', 'pink', 'purple'];
+var isWrong = true;
+for (var j = 0; j < 6; j++) {
+  var color = prompt('What is my favorite color?');
+  for (var i = 0; i < myColors.length; i++) {
+    if (color === myColors[i]) {
+      console.log('You are correct!');
+      isWrong = false;
+      correct++;
+      break;
+    }
+  }
+  console.log('hello');
+  if (isWrong === true) {
+    console.log('You are incorrect!');
+  } else {
+    break;
+  }
+
+}
+alert(myColors + 'are all of my favorite colors!');
+alert('You got ' + correct + 'correct!');
