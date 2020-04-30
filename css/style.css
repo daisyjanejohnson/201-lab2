@@ -1,3 +1,4 @@
+
 /* background color for page */
 body{
   background-color: paleturquoise;
@@ -21,17 +22,19 @@ h1{
 p{
   background-color: paleturquoise;
   text-align: center;
-  width: 1800px;
-  text-align:center;
+  width: 80%;
   font-size: 25pt;
   font-family: fantasy;
+  margin: auto;
   }
 
 /* bio info */
 .info{
-  margin-top: 10px;
-  width: 1000px;
-  border: 2px solid black;
+  /* margin-top: 10px; */
+  display: flex;
+  margin: auto;
+  width: 80%;
+  border: 2px solid rgb(0, 0, 0);
   background-color: wheat;
   color: black;
   font-weight: bold;
