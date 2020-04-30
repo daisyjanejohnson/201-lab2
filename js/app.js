@@ -96,7 +96,7 @@ var guessNumber = 0;
 console.log('hello');
 while (guessNumber < 4){
   var myNumber = prompt('Guess the number I am thinking of between 1 and 10!');
-  if(myNumber === '6' || myNumber === 'six'){
+  if(myNumber === '6' || myNumber.toLowerCase() === 'six'){
     alert('Correct! That is exactly the number I was thinking of!');
     console.log('You are correct!');
     correct++;
@@ -121,7 +121,7 @@ var isWrong = true;
 for (var j = 0; j < 6; j++) {
   var color = prompt('What are some of my favorite colors?');
   for (var i = 0; i < myColors.length; i++) {
-    if (color === myColors[i]) {
+    if (color.toLowerCase() === myColors[i]) {
       alert('You are correct!');
       console.log('You are correct!');
       isWrong = false;
@@ -144,3 +144,4 @@ console.log(myColors + 'are my favorite colors.');
 // I created an alert connected to the variable correct in order to let the user know the score they got on my quiz
 alert('You got ' + correct + ' out of 7 answers correct!');
 console.log('You got' + correct + 'out of 7');
+
