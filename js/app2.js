@@ -44,7 +44,7 @@ function question12345() {
 
   for (var i = 0; i < questionArray.length; i++) {
     var answer = prompt(questionArray[i]);
-    if (answer.toLowerCase()[0] === answerArray[i][0]) {
+    if (answer.toLowerCase() === answerArray[i][0]) {
       alert(correctAnswer[i]);
       correct++;
       console.log('Question ' + i + ' response is ' + answer);
