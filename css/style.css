@@ -1,45 +1,49 @@
 
 /* background color for page */
 body{
-  background-color: paleturquoise;
+  background-color: rgb(255, 227, 224);
   padding-left: 20px;
 }
 
 /* header */
 h1{
-  background-color: wheat;
+  background-color: RGB(255, 227, 224);
   margin: 20px;
   padding-top: 10pt;
   padding-bottom: 10pt;
   Text-align: center;
-  color: darkslategrey;
+  color: RGB(153, 39, 28);
   font-size: 50pt;
   font-family: fantasy;
-  border: 5px solid darkslategray;
 
 }
 /* opening paragraph */
 p{
-  background-color: paleturquoise;
+  background-color:RGB(255, 227, 224);
+  font-size: 50pt;
+  color: RGB(153, 39, 28);
   text-align: center;
-  width: 80%;
+  width: 90%;
   font-size: 25pt;
   font-family: fantasy;
   margin: auto;
   }
 
 /* bio info */
-.info{
-  /* margin-top: 10px; */
-  display: flex;
-  margin: auto;
-  width: 80%;
-  border: 2px solid rgb(0, 0, 0);
-  background-color: wheat;
-  color: black;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  line-height: 30px;
+#info{
+  margin-top: 10px;
+  border: 2px solid RGB(153, 39, 28);
+  background-color:rgb(245, 170, 151);
+}
+
+.stuff{
+  display: inline-flex;
+  text-align: center;
+  width: 500px;
+  height:150px;
+  padding: 5px;
+  border: 2px solid rgb(245, 170, 151);
+
 }
 /* Top Ten Movies */
 .movie{
@@ -55,9 +59,9 @@ p{
 
 
 footer{
-  background-color: plum;
+  background-color:rgb(245, 170, 151);
   color: black;
-  border: 2px solid plum;
+  border: 2px solidrgb(245, 170, 151);
   border-width: 5px;
   display: inline-block;
   margin-top: 20px;
