@@ -14,47 +14,63 @@ h1{
   Text-align: center;
   color: RGB(153, 39, 28);
   font-size: 50pt;
-  font-family: fantasy;
-
+  font-family:'Playfair Display', serif;
 }
+
 /* opening paragraph */
 p{
   background-color:RGB(255, 227, 224);
-  font-size: 50pt;
+  font-size: 25pt;
+  font-weight: bold;
   color: RGB(153, 39, 28);
   text-align: center;
   width: 90%;
-  font-size: 25pt;
-  font-family: fantasy;
+  font-family: 'Playfair Display', serif;
   margin: auto;
   }
 
 /* bio info */
-#info{
+h2.info{
+  font-size: 25pt;
+}
+
+.info{
   margin-top: 10px;
   border: 2px solid RGB(153, 39, 28);
   background-color:rgb(245, 170, 151);
+  color: rgb(47, 71, 104);
+  font-size: 15pt;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 .stuff{
-  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 35%;
   text-align: center;
   width: 500px;
   height:150px;
   padding: 5px;
   border: 2px solid rgb(245, 170, 151);
+  background-color:rgb(243, 207, 190);
+  color: rgb(47, 71, 104);
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  line-height: 15px;
 
 }
 /* Top Ten Movies */
 .movie{
   margin-top:50px;
-  border: 2px solid black;
+  margin-left: 35%;
+  border: 2px solid RGB(153, 39, 28);
   width: 500px;
   text-align: center;
-  background-color: wheat;
+  background-color:rgb(243, 207, 190);
+  color: RGB(153, 39, 28);
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 20px;
+  font-family: 'Playfair Display', serif;
 }
 
 
